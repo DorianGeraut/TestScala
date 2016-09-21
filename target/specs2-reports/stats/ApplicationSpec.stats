@@ -1,0 +1,6 @@
+<ApplicationSpec-stats timestamp="1473858554293"><stats time="233" expectations="2" successes="2" examples="2"></stats></ApplicationSpec-stats>
+<ApplicationSpec-stats timestamp="1473937832084"><stats time="3265" expectations="2" successes="2" examples="2"></stats></ApplicationSpec-stats>
+<ApplicationSpec-results timestamp="1473952440086"><result location="ApplicationSpec (ApplicationSpec.scala:18)" id="576019252"><stats time="267" expectations="1" errors="1" examples="1"></stats></result>
+<result location="ApplicationSpec (ApplicationSpec.scala:22)" id="-1257939978"><stats time="3" expectations="1" errors="1" examples="1"></stats></result>
+</ApplicationSpec-results>
+<ApplicationSpec-stats timestamp="1473952440104"><stats time="276" expectations="2" errors="2" examples="2"><trend><stats time="276" errors="2" successes="-2"></stats></trend></stats></ApplicationSpec-stats>

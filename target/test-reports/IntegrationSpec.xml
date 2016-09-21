@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="dorian-Aspire-V3-571G" name="IntegrationSpec" tests="1" errors="1" failures="0" time="-0.001">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/><property name="java.vm.version" value="25.101-b13"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="FR"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/dorian/workspace/Stage/TestScala"/><property name="java.runtime.version" value="1.8.0_101-b13"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="3.19.0-32-generic"/><property name="user.home" value="/home/dorian"/><property name="user.timezone" value="Europe/Paris"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/home/dorian/.sbt/launchers/sbt-launch-57d0f04f4b48b11ef7e764f4cea58dee4e806ffd.jar"/><property name="user.name" value="dorian"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/home/dorian/.sbt/launchers/sbt-launch-57d0f04f4b48b11ef7e764f4cea58dee4e806ffd.jar @load:file:/tmp/sbtlaunch2361005553464836077config"/><property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="fr"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_101"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="IntegrationSpec" name="(It is not a test)" time="-0.001">
+                                                 <error message="Configuration error[./conf/application.conf: 68: Could not resolve substitution to a value: ${play.path}]" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: Configuration error[./conf/application.conf: 68: Could not resolve substitution to a value: ${play.path}]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:94)
+	at play.api.Configuration$.loadDev(Configuration.scala:35)
+	at play.api.Configuration$.load(Configuration.scala:64)
+	at play.api.WithDefaultConfiguration$$anonfun$initialConfiguration$1.apply(Application.scala:76)
+	at play.api.WithDefaultConfiguration$$anonfun$initialConfiguration$1.apply(Application.scala:76)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21)
+	at play.api.WithDefaultConfiguration$class.initialConfiguration(Application.scala:75)
+	at play.api.test.FakeApplication.initialConfiguration$lzycompute(Fakes.scala:211)
+	at play.api.test.FakeApplication.initialConfiguration(Fakes.scala:211)
+	at play.api.WithDefaultGlobal$class.play$api$WithDefaultGlobal$$globalClass(Application.scala:25)
+	at play.api.test.FakeApplication.play$api$WithDefaultGlobal$$globalClass$lzycompute(Fakes.scala:211)
+	at play.api.test.FakeApplication.play$api$WithDefaultGlobal$$globalClass(Fakes.scala:211)
+	at play.api.WithDefaultGlobal$class.play$api$WithDefaultGlobal$$javaGlobal(Application.scala:31)
+	at play.api.test.FakeApplication.play$api$WithDefaultGlobal$$javaGlobal$lzycompute(Fakes.scala:211)
+	at play.api.test.FakeApplication.play$api$WithDefaultGlobal$$javaGlobal(Fakes.scala:211)
+	at play.api.WithDefaultGlobal$$anonfun$play$api$WithDefaultGlobal$$globalInstance$1.apply(Application.scala:54)
+	at play.api.WithDefaultGlobal$$anonfun$play$api$WithDefaultGlobal$$globalInstance$1.apply(Application.scala:53)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21)
+	at play.api.WithDefaultGlobal$class.play$api$WithDefaultGlobal$$globalInstance(Application.scala:52)
+	at play.api.test.FakeApplication.play$api$WithDefaultGlobal$$globalInstance$lzycompute(Fakes.scala:211)
+	at play.api.test.FakeApplication.play$api$WithDefaultGlobal$$globalInstance(Fakes.scala:211)
+	at play.api.WithDefaultGlobal$class.global(Application.scala:68)
+	at play.api.test.FakeApplication.play$api$test$FakeApplication$$super$global(Fakes.scala:230)
+	at play.api.test.FakeApplication$$anonfun$global$1.apply(Fakes.scala:230)
+	at play.api.test.FakeApplication$$anonfun$global$1.apply(Fakes.scala:230)
+	at play.api.test.FakeApplication.global$lzycompute(Fakes.scala:230)
+	at play.api.test.FakeApplication.global(Fakes.scala:230)
+	at play.api.WithDefaultConfiguration$class.play$api$WithDefaultConfiguration$$fullConfiguration(Application.scala:82)
+	at play.api.test.FakeApplication.play$api$WithDefaultConfiguration$$fullConfiguration$lzycompute(Fakes.scala:211)
+	at play.api.test.FakeApplication.play$api$WithDefaultConfiguration$$fullConfiguration(Fakes.scala:211)
+	at play.api.WithDefaultConfiguration$class.configuration(Application.scala:84)
+	at play.api.test.FakeApplication.configuration(Fakes.scala:227)
+	at play.api.Application$class.$init$(Application.scala:274)
+	at play.api.test.FakeApplication.&lt;init&gt;(Fakes.scala:221)
+	at play.api.test.WithBrowser$.$lessinit$greater$default$2(Specs.scala:50)
+	at IntegrationSpec$$anonfun$1$$anonfun$apply$1$$anon$1.&lt;init&gt;(IntegrationSpec.scala:17)
+	at IntegrationSpec$$anonfun$1$$anonfun$apply$1.apply(IntegrationSpec.scala:17)
+	at IntegrationSpec$$anonfun$1$$anonfun$apply$1.apply(IntegrationSpec.scala:17)
+Caused by: sbt.ForkMain$ForkError: ./conf/application.conf: 68: Could not resolve substitution to a value: ${play.path}
+	at com.typesafe.config.impl.ConfigReference.resolveSubstitutions(ConfigReference.java:87)
+	at com.typesafe.config.impl.ResolveSource.resolveCheckingReplacement(ResolveSource.java:110)
+	at com.typesafe.config.impl.ResolveContext.resolve(ResolveContext.java:114)
+	at com.typesafe.config.impl.ConfigConcatenation.resolveSubstitutions(ConfigConcatenation.java:178)
+	at com.typesafe.config.impl.ResolveSource.resolveCheckingReplacement(ResolveSource.java:110)
+	at com.typesafe.config.impl.ResolveContext.resolve(ResolveContext.java:114)
+	at com.typesafe.config.impl.SimpleConfigObject$1.modifyChildMayThrow(SimpleConfigObject.java:341)
+	at com.typesafe.config.impl.SimpleConfigObject.modifyMayThrow(SimpleConfigObject.java:280)
+	at com.typesafe.config.impl.SimpleConfigObject.resolveSubstitutions(SimpleConfigObject.java:321)
+	at com.typesafe.config.impl.SimpleConfigObject.resolveSubstitutions(SimpleConfigObject.java:25)
+	at com.typesafe.config.impl.ResolveSource.resolveCheckingReplacement(ResolveSource.java:110)
+	at com.typesafe.config.impl.ResolveContext.resolve(ResolveContext.java:114)
+	at com.typesafe.config.impl.SimpleConfigObject$1.modifyChildMayThrow(SimpleConfigObject.java:341)
+	at com.typesafe.config.impl.SimpleConfigObject.modifyMayThrow(SimpleConfigObject.java:280)
+	at com.typesafe.config.impl.SimpleConfigObject.resolveSubstitutions(SimpleConfigObject.java:321)
+	at com.typesafe.config.impl.SimpleConfigObject.resolveSubstitutions(SimpleConfigObject.java:25)
+	at com.typesafe.config.impl.ResolveSource.resolveCheckingReplacement(ResolveSource.java:110)
+	at com.typesafe.config.impl.ResolveContext.resolve(ResolveContext.java:114)
+	at com.typesafe.config.impl.ResolveContext.resolve(ResolveContext.java:149)
+	at com.typesafe.config.impl.SimpleConfig.resolveWith(SimpleConfig.java:70)
+	at com.typesafe.config.impl.SimpleConfig.resolve(SimpleConfig.java:60)
+	at com.typesafe.config.impl.SimpleConfig.resolve(SimpleConfig.java:33)
+	at com.typesafe.config.ConfigFactory.load(ConfigFactory.java:202)
+	at com.typesafe.config.ConfigFactory.load(ConfigFactory.java:171)
+	at com.typesafe.config.ConfigFactory.load(ConfigFactory.java:167)
+	at play.api.Configuration$.loadDev(Configuration.scala:43)
+	... 36 more
+</error>
+                                               </testcase>
+                     <system-out></system-out>
+                     <system-err></system-err>
+                   </testsuite>

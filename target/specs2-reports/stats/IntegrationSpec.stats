@@ -1,0 +1,5 @@
+<IntegrationSpec-stats timestamp="1473858553849"><stats time="4314" expectations="1" successes="1" examples="1"></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1473937834877"><stats time="2589" expectations="1" successes="1" examples="1"></stats></IntegrationSpec-stats>
+<IntegrationSpec-results timestamp="1473952441879"><result location="IntegrationSpec (IntegrationSpec.scala:17)" id="708906715"><stats time="1380" expectations="1" errors="1" examples="1"></stats></result>
+</IntegrationSpec-results>
+<IntegrationSpec-stats timestamp="1473952441881"><stats time="1381" expectations="1" errors="1" examples="1"><trend><stats time="1381" errors="1" successes="-1"></stats></trend></stats></IntegrationSpec-stats>
