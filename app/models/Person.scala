@@ -8,8 +8,11 @@ import play.api.libs.functional.syntax._
 
 
 import com.fasterxml.jackson.databind.ObjectMapper
+/*
 import com.fasterxml.jackson.module.scala.DefaultScalaModule
 import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
+*/
+
 /**
  * Created by fred on 17/04/2015.
  */
@@ -88,8 +91,9 @@ object  Sex{
 object Person{
   //TODO hint : créer le Json Read et Write (ou Format)
   
-  
+  implicit val aread =  AddressType.addressTypeReads
   //Here I make my own Map[AddressType, Address] reads and writes:
+  /*
     implicit val addrMapWrites = new Writes[Map[AddressType, Address]] {
      def writes(addrMap: Map[AddressType, Address]) = {
        val mySeq = Seq()
@@ -109,7 +113,7 @@ object Person{
         
         }
     }
-    
+    */
     
   implicit val personReads: Reads[Person] = (
       (JsPath \ "name").read[String] and

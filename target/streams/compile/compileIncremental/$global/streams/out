@@ -1,23 +1,23 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/home/dorian/workspace/Stage/TestScala/app/models/Person.scala, /home/dorian/workspace/Stage/TestScala/app/controllers/AddressController.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_reverseRouting.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/controllers/routes.java, /home/dorian/workspace/Stage/TestScala/app/models/Address.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_routing.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/controller/routes.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/home/dorian/workspace/Stage/TestScala/app/models/Person.scala, /home/dorian/workspace/Stage/TestScala/app/controllers/AddressController.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_reverseRouting.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/controllers/routes.java, /home/dorian/workspace/Stage/TestScala/app/models/Address.scala, /home/dorian/workspace/Stage/TestScala/app/controllers/PersonController.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_routing.scala)[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/dorian/workspace/Stage/TestScala/app/models/Person.scala, /home/dorian/workspace/Stage/TestScala/app/controllers/AddressController.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_reverseRouting.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/controllers/routes.java, /home/dorian/workspace/Stage/TestScala/app/models/Address.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_routing.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/dorian/workspace/Stage/TestScala/app/models/Person.scala, /home/dorian/workspace/Stage/TestScala/app/controllers/AddressController.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_reverseRouting.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/controllers/routes.java, /home/dorian/workspace/Stage/TestScala/app/models/Address.scala, /home/dorian/workspace/Stage/TestScala/app/controllers/PersonController.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/controller/routes.java, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_routing.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/dorian/workspace/Stage/TestScala/app/models/Person.scala, /home/dorian/workspace/Stage/TestScala/app/controllers/AddressController.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_reverseRouting.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/controllers/routes.java, /home/dorian/workspace/Stage/TestScala/app/models/Address.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_routing.scala)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 10 sources: invalidated sources (6) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 9 Scala sources and 1 Java source to /home/dorian/workspace/Stage/TestScala/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/dorian/workspace/Stage/TestScala/app/models/Person.scala, /home/dorian/workspace/Stage/TestScala/app/controllers/AddressController.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_reverseRouting.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/controllers/routes.java, /home/dorian/workspace/Stage/TestScala/app/models/Address.scala, /home/dorian/workspace/Stage/TestScala/app/controllers/PersonController.scala, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/controller/routes.java, /home/dorian/workspace/Stage/TestScala/target/scala-2.11/src_managed/main/routes_routing.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 11 sources: invalidated sources (8) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 9 Scala sources and 2 Java sources to /home/dorian/workspace/Stage/TestScala/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 5c0fa949, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler f36b560, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-deprecation[0m
 [0m[[0mdebug[0m] [0m	-unchecked[0m

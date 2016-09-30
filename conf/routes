@@ -9,11 +9,11 @@ GET     /                                       controllers.Application.index
 
 GET     /person                                 controllers.PersonController.list
 POST    /person/create                          controllers.PersonController.create
-POST    /person/remove/:name                    controllers.PersonController.detete(name: String)
+POST    /person/remove/:name                    controllers.PersonController.remove(name: String)
 
-POST     /address/add/:personId/:typeAddress     controller.AddressController.add(personId: String, typeAddress: String)
-POST     /address/update/:personId/:typeAddress     controller.AddressController.update(personId: String, typeAddress: String)
-POST     /address/remove/:personId/:typeAddress     controller.AddressController.remove(personId: String, typeAddress: String)
+POST     /address/add/:personId/:typeAddress     controllers.AddressController.add(personId: String, typeAddress: String)
+POST     /address/update/:personId/:typeAddress     controllers.AddressController.update(personId: String, typeAddress: String)
+POST     /address/remove/:personId/:typeAddress     controllers.AddressController.remove(personId: String, typeAddress: String)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file                           controllers.Assets.at(path="/public", file)

@@ -1,42 +1,14 @@
-[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:54: not found: type male[0m
-[0m[[31merror[0m] [0m      (JsPath \ "male").read[male] or[0m
-[0m[[31merror[0m] [0m                             ^[0m
-[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:54: ambiguous reference to overloaded definition,[0m
-[0m[[31merror[0m] [0mboth method read in class JsPath of type (t: <error>)play.api.libs.json.Reads[<error>][0m
-[0m[[31merror[0m] [0mand  method read in class JsPath of type (implicit r: play.api.libs.json.Reads[<error>])play.api.libs.json.Reads[<error>][0m
-[0m[[31merror[0m] [0mmatch expected type ?[0m
-[0m[[31merror[0m] [0m      (JsPath \ "male").read[male] or[0m
-[0m[[31merror[0m] [0m                            ^[0m
-[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:55: not found: type female[0m
-[0m[[31merror[0m] [0m      (JsPath \ "female").read[female][0m
+[0m[[33mwarn[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:3: imported `Address' is permanently hidden by definition of object Address in package models[0m
+[0m[[33mwarn[0m] [0mimport models.Address[0m
+[0m[[33mwarn[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:133: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : Map[models.AddressType,models.Address][0m
+[0m[[31merror[0m] [0m required: play.api.libs.json.Json.JsValueWrapper[0m
+[0m[[31merror[0m] [0m Note: implicit value personWrites is not applicable here because it comes after the application point and it lacks an explicit result type[0m
+[0m[[31merror[0m] [0m         "addresses" -> person.addresses[0m
 [0m[[31merror[0m] [0m                               ^[0m
-[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:56: value apply is not a member of object models.AddressType[0m
-[0m[[31merror[0m] [0m  )(AddressType.apply _)[0m
-[0m[[31merror[0m] [0m                ^[0m
-[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:60: not found: type male[0m
-[0m[[31merror[0m] [0m      (JsPath \ "male").read[male] or[0m
-[0m[[31merror[0m] [0m                             ^[0m
-[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:60: ambiguous reference to overloaded definition,[0m
-[0m[[31merror[0m] [0mboth method read in class JsPath of type (t: <error>)play.api.libs.json.Reads[<error>][0m
-[0m[[31merror[0m] [0mand  method read in class JsPath of type (implicit r: play.api.libs.json.Reads[<error>])play.api.libs.json.Reads[<error>][0m
-[0m[[31merror[0m] [0mmatch expected type ?[0m
-[0m[[31merror[0m] [0m      (JsPath \ "male").read[male] or[0m
-[0m[[31merror[0m] [0m                            ^[0m
-[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:61: not found: type female[0m
-[0m[[31merror[0m] [0m      (JsPath \ "female").read[female][0m
-[0m[[31merror[0m] [0m                               ^[0m
-[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:100: type _1 is not a member of (models.AddressType, models.Address)[0m
-[0m[[31merror[0m] [0m              mySeq :+ Writes[tuple._1] :+ Writes[tuple._2][0m
-[0m[[31merror[0m] [0m                                    ^[0m
-[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:100: missing arguments for method apply in object Writes;[0m
-[0m[[31merror[0m] [0mfollow this method with `_' if you want to treat it as a partially applied function[0m
-[0m[[31merror[0m] [0m              mySeq :+ Writes[tuple._1] :+ Writes[tuple._2][0m
-[0m[[31merror[0m] [0m                             ^[0m
-[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:100: type _2 is not a member of (models.AddressType, models.Address)[0m
-[0m[[31merror[0m] [0m              mySeq :+ Writes[tuple._1] :+ Writes[tuple._2][0m
-[0m[[31merror[0m] [0m                                                        ^[0m
-[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:100: missing arguments for method apply in object Writes;[0m
-[0m[[31merror[0m] [0mfollow this method with `_' if you want to treat it as a partially applied function[0m
-[0m[[31merror[0m] [0m              mySeq :+ Writes[tuple._1] :+ Writes[tuple._2][0m
-[0m[[31merror[0m] [0m                                                 ^[0m
-[0m[[31merror[0m] [0m11 errors found[0m
+[0m[[31merror[0m] [0m/home/dorian/workspace/Stage/TestScala/app/models/Person.scala:123: No Json deserializer found for type Map[models.AddressType,models.Address]. Try to implement an implicit Reads or Format for this type.[0m
+[0m[[31merror[0m] [0m      (JsPath \ "addresses").read[Map[AddressType, Address]][0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[31merror[0m] [0mtwo errors found[0m
